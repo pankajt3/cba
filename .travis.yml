@@ -4,6 +4,7 @@ compiler:
  - clang
  - gcc
  script:
- - gcc -o test palindrome1.c
-  - gcc -o test palindrome2.c
- - ./test 
+ - gcc -o palindrome1 palindrome1.c
+  - gcc -o palindrome2 palindrome2.c
+ - ./palindrome1
+ - ./palindrome2
