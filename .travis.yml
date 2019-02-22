@@ -5,6 +5,6 @@ compiler:
  - gcc
  script:
  - gcc -o palindrome1 palindrome1.c
-  - gcc -o palindrome2 palindrome2.c
+ 
  - ./palindrome1
- - ./palindrome2
+
